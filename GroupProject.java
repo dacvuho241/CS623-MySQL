@@ -14,7 +14,7 @@ public class GroupProject {
 		Class.forName("com.mysql.cj.jdbc.Driver");
 
 		// Connect to the database
-		Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/groupproject","root","hodacvu3");
+		Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/groupproject");
 
 		// For atomicity
 		conn.setAutoCommit(false);
