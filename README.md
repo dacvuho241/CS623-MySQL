@@ -1,2 +1,2 @@
-# CS623-MySQL
-
+# A transaction implements the ACID properties
+![](edr.PNG)
